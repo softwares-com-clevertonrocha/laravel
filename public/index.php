@@ -1,5 +1,24 @@
 <?php
 
+
+<?php
+echo "My first PHP script!";
+?>
+
+
+$date = new DateTime('now');
+$date->modify('last day of this month');
+echo $date->format('d'); // somente o dia
+echo PHP_EOL;
+echo $date->format('d/m'); //dia e mês
+echo PHP_EOL;
+echo $date->format('d/m/Y'); //dia mês e ano
+
+
+
+
+
+
 /**
  * Laravel - A PHP Framework For Web Artisans
  *
